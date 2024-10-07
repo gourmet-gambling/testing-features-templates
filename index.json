@@ -1,0 +1,16 @@
+{
+  "templates": [
+    {
+      "gameType": "Scratchcard",
+      "denomination": "Spain",
+      "name" : "Scratchcard - Spain",
+      "file" : "scratchcard/features.es.template"
+    },
+    {
+      "gameType": "Scratchcard",
+      "denomination": "West USA",
+      "name" : "Scratchcard - West USA",
+      "file" : "scratchcard/features.west_usa.template"
+    }
+  ]
+}

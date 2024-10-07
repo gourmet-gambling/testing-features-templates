@@ -5,8 +5,8 @@
       "denomination": "Spain",
       "name" : "Scratchcard - Spain",
       "file" : [
-        "scratchcard/es.group1.features",
-        "scratchcard/es.group2.features"
+        "scratchcard/es.group1.feature",
+        "scratchcard/es.group2.feature"
       ]
     },
     {
@@ -14,7 +14,7 @@
       "denomination": "West USA",
       "name" : "Scratchcard - West USA",
       "file" : [
-        "scratchcard/west_usa.group1.features"
+        "scratchcard/west_usa.group1.feature"
       ]
     }
   ]

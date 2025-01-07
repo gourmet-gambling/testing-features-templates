@@ -1,38 +1,38 @@
 {
-  "templates": [
-    {
-      "gameType": "Scratchcard",
-      "denomination": "Spain",
-      "name" : "Scratchcard - Spain",
-      "file" : [
-        "templates/scratchcard/es.scratchcard1.feature",
-        "templates/scratchcard/es.scratchcard2.feature"
-      ]
-    },
-    {
-      "gameType": "Scratchcard",
-      "denomination": "West USA",
-      "name" : "Scratchcard - West USA",
-      "file" : [
-        "templates/scratchcard/west_usa.scratchcard1.feature"
-      ]
-    },
-    {
-      "gameType": "Daruma",
-      "denomination": "Spain",
-      "name" : "Daruma - Spain",
-      "file" : [
-        "templates/daruma/es.daruma1.feature",
-        "templates/daruma/es.daruma2.feature"
-      ]
-    },
-    {
-      "gameType": "Daruma",
-      "denomination": "France",
-      "name" : "Daruma - France",
-      "file" : [
-        "templates/daruma/fr.daruma1.feature"
-      ]
-    }
-  ]
+  "templates": {
+    "Scratchcard": [
+      {
+        "denomination": "Spain",
+        "name" : "Scratchcard - Spain",
+        "file" : [
+          "templates/scratchcard/es.scratchcard1.feature",
+          "templates/scratchcard/es.scratchcard2.feature"
+        ]
+      },
+      {
+        "denomination": "West USA",
+        "name" : "Scratchcard - West USA",
+        "file" : [
+          "templates/scratchcard/west_usa.scratchcard1.feature"
+        ]
+      }
+    ],
+    "Daruma": [
+      {
+        "denomination": "Spain",
+        "name" : "Daruma - Spain",
+        "file" : [
+          "templates/daruma/es.daruma1.feature",
+          "templates/daruma/es.daruma2.feature"
+        ]
+      },
+      {
+        "denomination": "France",
+        "name" : "Daruma - France",
+        "file" : [
+          "templates/daruma/fr.daruma1.feature"
+        ]
+      }
+    ]
+  }
 }

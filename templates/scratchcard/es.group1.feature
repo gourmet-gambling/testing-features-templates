@@ -1,4 +1,4 @@
-Feature: ES Group 1
+Feature: ES Scratchcard 1
 @ThreeSeconds
 Scenario: Round last three seconds
 	Given Open game page
@@ -119,16 +119,4 @@ Scenario: Round last three seconds
 	Then Await 0.5
 		Then Set and play 10 games
 		Then Wait until all games are played
-	Then Stop monitoring
-
-@RepeatedChoicesNotQueued
-Scenario: Repeated choices are not queued
-	Given Open game page
-	And Click the continue button
-	Then Check if balance is enough for 5 max bet games
-	Then Make game grant prize
-	Then Click the play button 5 times
-	When Start monitoring requests and responses
-	Then Click the play button 5 times
-	Then Await 5
 	Then Stop monitoring

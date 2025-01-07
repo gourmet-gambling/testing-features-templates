@@ -1,4 +1,4 @@
-Feature: West USA Group 1
+Feature: West USA Scratchcard 1
 
 @CheckGameInstructions
 Scenario: Check game instructions

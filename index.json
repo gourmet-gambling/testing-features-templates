@@ -5,8 +5,8 @@
       "denomination": "Spain",
       "name" : "Scratchcard - Spain",
       "file" : [
-        "scratchcard/es.group1.feature",
-        "scratchcard/es.group2.feature"
+        "templates/scratchcard/es.scratchcard1.feature",
+        "templates/scratchcard/es.scratchcard2.feature"
       ]
     },
     {
@@ -14,7 +14,24 @@
       "denomination": "West USA",
       "name" : "Scratchcard - West USA",
       "file" : [
-        "scratchcard/west_usa.group1.feature"
+        "templates/scratchcard/west_usa.scratchcard1.feature"
+      ]
+    },
+    {
+      "gameType": "Daruma",
+      "denomination": "Spain",
+      "name" : "Daruma - Spain",
+      "file" : [
+        "templates/daruma/es.daruma1.feature",
+        "templates/daruma/es.daruma2.feature"
+      ]
+    },
+    {
+      "gameType": "Daruma",
+      "denomination": "France",
+      "name" : "Daruma - France",
+      "file" : [
+        "templates/daruma/fr.daruma1.feature"
       ]
     }
   ]
